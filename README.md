@@ -1,4 +1,4 @@
-# Healthcare-Revenue-Operations-Dashboard
+# Healthcare-Revenue-Operations-Analysis
 
 ## Background and Overview
 This project analyzes Horizon Care’s operational and billing data to evaluate revenue cycle performance, appointment efficiency, and financial impact of no-shows.
