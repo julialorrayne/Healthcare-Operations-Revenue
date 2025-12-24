@@ -33,10 +33,9 @@ The dataset as seen below consists of six tables: billing, appointment, patient,
 
 **Key Findings**
 
-<p align="center">
-  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/Healthcare%20Financial%20Performance%20Dashboard.png?raw=true"
-       width="900" height="1000">
-</p>
+
+<img src="https://raw.githubusercontent.com/julialorrayne/Projects-images/refs/heads/main/Healthcare/Healthcare%20Appointment%20Performance%20Dashboard.png" width="700" height="400">
+
 
 
 ### No-Shows by Day of the Week
