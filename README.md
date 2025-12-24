@@ -23,6 +23,10 @@ Relational Database Design & Data Modeling  · SQL DDL & Constraint Enforcement 
 
 **Key Findings**
 
+
+![KPIs Appts. Performance](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/KPIs%20Appt.%20Performance.png?raw=true)
+
+
 ### No-Shows by Day of the Week
 
 
