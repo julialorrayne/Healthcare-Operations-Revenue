@@ -37,7 +37,8 @@ The dataset as seen below consists of six tables: billing, appointment, patient,
 ### No-Shows by Day of the Week
 
 
-![ No-Shows by Day of the Week](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/No-Shows%20by%20day%20of%20the%20week.png?raw=true)
+<img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/No-Shows%20by%20day%20of%20the%20week.png?raw=true" width="700">
+
 
 
 Midweek appointments experience significantly higher no-show volumes compared to the weekly average.
