@@ -195,6 +195,14 @@ Benchmark Best Practices
 Analyze workflows of providers with consistently shorter visit times without elevated no-show or cancellation rates.
 
 
+![Financial Performance Dashboard](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/Healthcare%20Financial%20Performance%20Dashboard.png?raw=true)
+
+
+
+
+![KPIs finance](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/KPIs%20finance.png?raw=true)
+
+
 ### Monthly Revenue Fluctuates Around a $13.8K Average
 
 
