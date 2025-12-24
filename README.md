@@ -17,7 +17,12 @@ Relational Database Design & Data Modeling  · SQL DDL & Constraint Enforcement 
 
 ---
 
-## Data Structure Overview
+## Data Structure and ERD(Entity Relationship Diagram)
+
+The dataset as seen below consists of six tables: billing, appointment, patient, diagnoses, doctor, department, and one associative table: appointment_diagnosis.
+
+![ERD](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/ERD.png?raw=true)
+
 
 ## Executive Sumamary
 
