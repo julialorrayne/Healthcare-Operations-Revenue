@@ -24,6 +24,11 @@ Relational Database Design & Data Modeling  · SQL DDL & Constraint Enforcement 
 **Key Findings**
 
 ### No-Shows by Day of the Week
+
+
+![ No-Shows by Day of the Week](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/No-Shows%20by%20day%20of%20the%20week.png?raw=true)
+
+
 Midweek appointments experience significantly higher no-show volumes compared to the weekly average.
 Tuesday (23), Wednesday (22), and Thursday (20) exceed the weekly average of 16.7 no-shows by approximately 20–40%, making midweek the most operationally vulnerable period.
 
@@ -41,6 +46,10 @@ Align staffing and provider schedules to account for predictable midweek attriti
 
 
 ### No-Shows Peak in the Early Morning (8–10 AM)
+
+
+![No-Shows Peak in the Early Morning](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/No-Shows%20by%20time%20of%20the%20day.png?raw=true)
+
 No-shows are highest during early morning appointment hours (8–10 AM), peaking at 8 AM, and then decline steadily throughout the day. After 11 AM, no-show volumes drop sharply and remain relatively low through the afternoon.
 
 This pattern indicates a clear time-of-day effect on appointment attendance.
@@ -66,6 +75,11 @@ Operational Scheduling Adjustments:
 Schedule administrative tasks, team huddles, or buffer time during early hours to mitigate idle capacity risk.
 
 ### Monthly Appointments Fluctuate Around a 70-Visit Average
+
+
+[Monthly Appointments Fluctuate Around a 70-Visit Average](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/Appts%20by%20month.png?raw=true)
+
+
 Monthly appointment volume fluctuates significantly around an average of approximately 70 visits per month, with pronounced peaks and troughs throughout the year.
 
 Peak volume occurs in March (103 visits) and November (~97 visits)
@@ -92,6 +106,11 @@ Revenue Planning:
 Use monthly volume trends to forecast revenue more accurately and mitigate financial volatility.
 
 ### Appointments by Department and Provider
+
+
+![Appointments by Department and Provider](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/Appts.%20by%20department%20and%20doctor.png?raw=true)
+
+
 Appointment volume varies significantly both across departments and among individual providers, indicating uneven workload distribution and potential capacity imbalances within Horizon Care.
 
 Oncology shows the highest overall appointment volumes, with Alice Clark (37 visits) significantly exceeding peers
@@ -118,12 +137,20 @@ Use appointment volume as an operational KPI to detect sustained overload or und
 Patient Access Improvement:
 Redirect overflow demand to available providers to reduce wait times and no-show risk.
 
-### Appointment Outcomes Distribution
+### No-Shows
+
+
+![No-Shows](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/No-Shows.png?raw=true)
+
 
 Approximately 15% of scheduled appointments result in no-shows, representing a significant and recurring source of lost capacity and revenue for Horizon Care.
 
 
 ### No-Shows by Provider
+
+
+![No-Shows by Doctor](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/No-Shows%20by%20doctors.png?raw=true)
+
 
 No-shows are not evenly distributed across providers. A small group of doctors account for a disproportionately high share of missed appointments, indicating that no-shows are influenced by provider-specific scheduling patterns rather than random patient behavior.
 
@@ -139,6 +166,10 @@ Meanwhile, several providers report 0–1 no-shows, demonstrating that lower no-
 
 
 ### Average Visit Time by Department and Provider
+
+
+![Average Visit Time by Department and Provider](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/Visit%20Time%20by%20department%20and%20doctor.png?raw=true)
+
 
 Average visit duration varies significantly across departments and individual providers, ranging from approximately 22 minutes to over 37 minutes. This variation highlights meaningful differences in care complexity, workflow efficiency, and provider practice patterns.
 
@@ -162,6 +193,10 @@ Analyze workflows of providers with consistently shorter visit times without ele
 
 ### Monthly Revenue Fluctuates Around a $13.8K Average
 
+
+![Monthly Revenue Fluctuates Around a $13.8K Average](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/revenue%20by%20month.png?raw=true)
+
+
 Monthly revenue remains relatively stable across the year, fluctuating around an average of approximately $13.8K, with noticeable short-term peaks and dips rather than a sustained upward or downward trend.
 
 Revenue Pattern Observations
@@ -183,11 +218,19 @@ Improve Revenue per Visit
 
 ### Total Revenue by Payer
 
+
+![Total Revenue by Payer](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/revenue%20by%20payer.png?raw=true)
+
+
 Revenue is unevenly distributed across payers, with a small subset of patients contributing disproportionately higher total charges. The top payers generate nearly $1.9K–$1.7K each, while the majority cluster in a narrower mid-range around $1.1K–$1.3K.
 
 This indicates moderate revenue concentration, not extreme dependence on a single payer, but still enough variation to warrant payer-level monitoring.
 
 ### Total Revenue by Department and Doctor
+
+
+![Total Revenue by Department and Doctor](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/revenue%20by%20department%20and%20doctor.png?raw=true)
+
 
 Revenue generation varies significantly both across departments and among providers within the same department, indicating that total revenue is driven by a combination of departmental service mix and individual provider performance.
 
