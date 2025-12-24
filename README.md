@@ -15,6 +15,226 @@ DBeaver · PostgreSQL · Tableau · Python
 **Techniques:** 
 Relational Database Design & Data Modeling  · SQL DDL & Constraint Enforcement · Exploratory Data Analysis (EDA) · Time-Series Analysis · SQL Querying & Data Integration · Data Visualization
 
+DDL can be found here:  
+Python can be found gere:  
+---
+
+## Data Structure and ERD(Entity Relationship Diagram)
+
+The dataset as seen below consists of six tables: billing, appointment, patient, diagnoses, doctor, department, and one associative table: appointment_diagnosis.
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/ERD.png?raw=true" width="750">
+</p>
+
+
+## Executive Sumamary
+
+**Key Findings**
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/Healthcare%20Appointment%20Performance%20Dashboard.png?raw=true" width="900">
+</p>
+
+
+### No-Shows by Day of the Week
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/No-Shows%20by%20day%20of%20the%20week.png?raw=true" width="650">
+</p>
+
+Midweek appointments experience significantly higher no-show volumes compared to the weekly average.  
+Tuesday (23), Wednesday (22), and Thursday (20) exceed the weekly average of 16.7 no-shows by approximately 20–40%, making midweek the most operationally vulnerable period.
+
+In contrast, Monday (10) and Friday (11) show the lowest no-show counts, while weekends remain closer to or below the weekly baseline.  
+This pattern suggests that no-shows are not evenly distributed across the week and are likely influenced by patient scheduling behavior and competing midweek commitments.
+
+
+Operational Recommendation
+
+Prioritize enhanced appointment reminders (SMS/email) for Tuesday–Thursday visits
+
+Consider controlled overbooking or waitlist activation during midweek
+
+Align staffing and provider schedules to account for predictable midweek attrition
+
+
+### No-Shows Peak in the Early Morning (8–10 AM)
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/No-Shows%20by%20time%20of%20the%20day.png?raw=true" width="650">
+</p>
+
+No-shows are highest during early morning appointment hours (8–10 AM), peaking at 8 AM, and then decline steadily throughout the day. After 11 AM, no-show volumes drop sharply and remain relatively low through the afternoon.
+
+This pattern indicates a clear time-of-day effect on appointment attendance.
+
+Why This Matters (Operational Impact)
+
+Possible Contributing Factors
+
+Patients struggle with morning readiness (transportation, childcare, work conflicts); Limited reminder effectiveness overnight; Higher likelihood of last-minute cancellations or no-shows due to rushed mornings
+
+Data-Driven Recommendations
+
+Targeted Reminder Strategy:  
+Send enhanced reminders (SMS + email) for 8–10 AM appointments, including same-morning confirmations.
+
+Overbooking Optimization:  
+Slightly overbook early morning slots using historical no-show rates to offset expected losses.
+
+Appointment Slot Rebalancing:  
+Reserve early morning appointments for lower-risk patient groups or follow-ups with historically higher attendance.
+
+Operational Scheduling Adjustments:  
+Schedule administrative tasks, team huddles, or buffer time during early hours to mitigate idle capacity risk.
+
+
+### Monthly Appointments Fluctuate Around a 70-Visit Average
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/Appts%20by%20month.png?raw=true" width="650">
+</p>
+
+Monthly appointment volume fluctuates significantly around an average of approximately 70 visits per month, with pronounced peaks and troughs throughout the year.
+
+Peak volume occurs in March (103 visits) and November (~97 visits)
+
+Lowest volume is observed in October (43 visits)
+
+Several months (February, June, September, October) fall well below the average, indicating uneven demand distribution
+
+This variability suggests strong seasonal and operational influences on appointment volume.
+
+
+Recommendations
+
+Demand Smoothing:  
+Introduce targeted outreach and reminder campaigns during historically low-volume months to stabilize appointment volume.
+
+Staffing Optimization:  
+Align provider schedules and staffing levels with seasonal demand patterns to reduce burnout during peaks and idle time during dips.
+
+Preventive Scheduling Strategy:  
+Encourage advance booking and follow-ups in low-demand months to improve utilization and continuity of care.
+
+Revenue Planning:  
+Use monthly volume trends to forecast revenue more accurately and mitigate financial volatility.
+
+
+### Appointments by Department and Provider
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/Appts.%20by%20department%20and%20doctor.png?raw=true" width="750">
+</p>
+
+Appointment volume varies significantly both across departments and among individual providers, indicating uneven workload distribution and potential capacity imbalances within Horizon Care.
+
+Oncology shows the highest overall appointment volumes, with Alice Clark (37 visits) significantly exceeding peers
+
+Radiology and Neurology display more evenly distributed workloads, though individual provider variation remains
+
+Orthopedics and Cardiology show moderate volumes but clear disparities between top- and low-performing providers
+
+This variation suggests that provider scheduling, specialty demand, and patient assignment practices play a major role in appointment throughput.
+
+
+### No-Shows
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/No-Shows.png?raw=true" width="650">
+</p>
+
+Approximately 15% of scheduled appointments result in no-shows, representing a significant and recurring source of lost capacity and revenue for Horizon Care.
+
+
+### No-Shows by Provider
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/No-Shows%20by%20doctors.png?raw=true" width="650">
+</p>
+
+
+### Average Visit Time by Department and Provider
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/Visit%20Time%20by%20department%20and%20doctor.png?raw=true" width="750">
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/Healthcare%20Financial%20Performance%20Dashboard.png?raw=true" width="900">
+</p>
+
+
+### Monthly Revenue Fluctuates Around a $13.8K Average
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/revenue%20by%20month.png?raw=true" width="650">
+</p>
+
+
+### Total Revenue by Payer
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/revenue%20by%20payer.png?raw=true" width="650">
+</p>
+
+
+### Total Revenue by Department and Doctor
+
+<p align="center">
+  <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/revenue%20by%20department%20and%20doctor.png?raw=true" width="750">
+</p>
+
+
+## Key Insights  
+
+## Recommendations
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Healthcare-Revenue-Operations-Analysis
+
+## Background and Overview
+This project analyzes Horizon Care’s operational and billing data to evaluate revenue cycle performance, appointment efficiency, and financial impact of no-shows.
+
+The dataset contains mock historical data from January 2023 to December 2025, representing patient appointments, billing activity, and provider information across multiple departments. 
+
+The primary objective is to identify operational inefficiencies, such as no-show patterns and billing delays, and assess their financial impact to optimize operations and increase revenue.
+
+
+**Tools Used:**
+DBeaver · PostgreSQL · Tableau · Python
+
+
+**Techniques:** 
+Relational Database Design & Data Modeling  · SQL DDL & Constraint Enforcement · Exploratory Data Analysis (EDA) · Time-Series Analysis · SQL Querying & Data Integration · Data Visualization
+
 DDL can be found here: 
 Python can be found gere:
 ---
