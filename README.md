@@ -66,7 +66,7 @@ Align staffing and provider schedules to account for predictable midweek attriti
 
 <p align="center">
   <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/No-Shows%20by%20time%20of%20the%20day.png?raw=true"
-       width="650" height="380">
+       width="700" height="1000">
 </p>
 
 
@@ -234,7 +234,7 @@ Analyze workflows of providers with consistently shorter visit times without ele
 
 <p align="center">
   <img src="https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/revenue%20by%20month.png?raw=true"
-       width="650" height="380">
+       width="700" height="900">
 </p>
 
 
