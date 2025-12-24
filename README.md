@@ -29,7 +29,7 @@ The dataset as seen below consists of six tables: billing, appointment, patient,
 **Key Findings**
 
 
-![KPIs Appts. Performance](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/KPIs%20Appt.%20Performance.png?raw=true)
+![Appts. Performance Dash](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/Healthcare%20Appointment%20Performance%20Dashboard.png?raw=true)
 
 
 ### No-Shows by Day of the Week
@@ -201,11 +201,6 @@ Analyze workflows of providers with consistently shorter visit times without ele
 
 
 ![Financial Performance Dashboard](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/Healthcare%20Financial%20Performance%20Dashboard.png?raw=true)
-
-
-
-
-![KPIs finance](https://github.com/julialorrayne/Projects-images/blob/main/Healthcare/KPIs%20finance.png?raw=true)
 
 
 ### Monthly Revenue Fluctuates Around a $13.8K Average
