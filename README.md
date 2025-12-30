@@ -296,7 +296,6 @@ High revenue variability within departments indicates that provider-level optimi
 ---
 
 ## Recommendations
-## Recommendations
 
 ### 1. Implement Targeted No-Show Reduction Strategies (Highest Impact)
 Midweek and early-morning appointments represent the highest no-show risk and revenue leakage.
