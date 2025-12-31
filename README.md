@@ -50,7 +50,7 @@ No-shows peak during 8–10 AM appointments, with the highest volume at 8 AM, th
 Approximately 15% of all scheduled appointments result in no-shows, representing a recurring source of lost capacity and unrealized revenue. Even a modest reduction of 3–5 percent would materially increase completed visits without additional staffing.
 
 + Seasonal Volatility in Appointment Demand:
-Monthly appointment volume fluctuates around a 70-visit average, with peaks in March (103 visits) and November (~97), and a sharp decline in October (43). This uneven demand introduces avoidable inefficiencies in staffing and revenue planning.
+Monthly appointment volume fluctuates around a 70-visit average, with highest peak in March (103 visits) and a sharp decline in October (43). This uneven demand introduces avoidable inefficiencies in staffing and revenue planning.
 
 + Provider-Level Imbalances Drive Inefficiency:
 Appointment volume varies widely across providers within the same department. In Oncology, one provider records 37 visits, far exceeding peers, while others remain underutilized. Similar imbalances appear across Cardiology and Orthopedics, increasing burnout risk and access delays.
