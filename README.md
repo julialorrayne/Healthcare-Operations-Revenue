@@ -16,6 +16,12 @@ DBeaver · PostgreSQL · Tableau · Python
 Relational Database Design & Data Modeling  · SQL DDL & Constraint Enforcement · Exploratory Data Analysis (EDA) · Time-Series Analysis · SQL Querying & Data Integration · Data Visualization
 
 
+> DDL can be found [here](https://github.com/julialorrayne/Healthcare-Revenue-Operations-Dashboard/blob/main/DDL.sql)
+> Synthetic healthcare data generation is implemented in this [Python notebook]([Hospital_Database_Data_Generation.ipynb](https://github.com/julialorrayne/Healthcare-Revenue-Operations-Dashboard/blob/main/Hospital_Database_Data_Generation.ipynb)).
+
+
+
+
 ---
 
 ## Data Structure and ERD (Entity Relationship Diagram)
