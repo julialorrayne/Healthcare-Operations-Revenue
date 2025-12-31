@@ -1,26 +1,24 @@
 # Healthcare Revenue Operations Analysis
 
 ## Background and Overview
-This project analyzes Horizon Care’s operational and billing data to evaluate revenue cycle performance, appointment efficiency, and financial impact of no-shows.
+This project analyzes Horizon Care’s operational and billing data to evaluate appointment efficiency, revenue cycle performance, and financial impact of no-shows.
 
-The dataset contains mock historical data from January 2023 to December 2025, representing patient appointments, billing activity, and provider-level scheduling, visit duration, and departmental assignment data across multiple departments. 
+The dataset contains historical data from January 2023 to December 2025, representing patient appointments, billing activity, and provider-level scheduling, visit duration, and departmental assignment data across multiple departments. 
 
 The primary objective is to identify operational inefficiencies, such as no-show patterns and billing delays, and assess their financial impact to optimize operations and increase revenue.
 
 
 **Tools Used:**
-DBeaver · PostgreSQL · Tableau · Python
+DBeaver · PostgreSQL · Python · Tableau
 
 
 **Techniques:** 
-Relational Database Design & Data Modeling  · SQL DDL & Constraint Enforcement · Exploratory Data Analysis (EDA) · Time-Series Analysis · SQL Querying & Data Integration · Data Visualization
+Relational Database Design & Data Modeling  · SQL DDL · Exploratory Data Analysis (EDA) · SQL Querying & Data Integration · Data Visualization
 
 
 > DDL can be found [here](https://github.com/julialorrayne/Healthcare-Revenue-Operations-Dashboard/blob/main/DDL.sql)
 
 > Synthetic healthcare data generation is implemented in this [Python notebook](https://github.com/julialorrayne/Healthcare-Revenue-Operations-Dashboard/blob/main/Hospital_Database_Data_Generation.ipynb).
-
-
 
 
 ---
