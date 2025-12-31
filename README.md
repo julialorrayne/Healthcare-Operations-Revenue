@@ -67,15 +67,15 @@ Monthly revenue fluctuates around a $13.8K average with short-term peaks and dip
 ## Strategic Recommendations
 
 _Target No-Show Reduction Where Risk Is Highest:_
-Deploy enhanced reminder workflows and confirmation requirements for midweek and early-morning appointments, and pilot controlled overbooking during high-risk periods to recapture lost capacity.
+Strengthen reminder and confirmation workflows for midweek and early-morning appointments, and selectively test overbooking during high-risk periods to recover lost appointment capacity.
 
 _Align Scheduling With Seasonal Demand Patterns:_
-Adjust staffing levels and appointment availability during peak months (March, November), while introducing proactive outreach and follow-up scheduling during low-demand periods (July, October).
+Adjust staffing levels and appointment availability during peak months, while introducing proactive outreach and follow-up scheduling during low-demand periods.
 
 _Rebalance Provider Workloads Within Departments:_
 Use provider-level appointment data to redirect routine visits toward underutilized providers, reducing burnout and improving patient access without increasing headcount.
 
-_Address Provider-Specific No-Show Exposure:
+_ Address Provider-Specific No-Show Exposure:
 Apply targeted scheduling and reminder strategies to providers with consistently higher no-show volumes, focusing on appointment timing and visit types rather than individual performance.
 
 _Optimize Appointment Lengths:_
@@ -85,7 +85,9 @@ _Protect High-Value Appointments to Maximize Revenue:_
 Prioritize no-show prevention for high-revenue visits through stronger confirmations and optimal time-slot allocation to maximize revenue per completed appointment.
 
 ---
+
 ## Operations Analysis
+
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/julialorrayne/Projects-images/refs/heads/main/Healthcare/Healthcare%20Appointment%20Performance%20Dashboard.png" 
@@ -125,11 +127,7 @@ No-shows are highest during early morning appointment hours (8–10 AM), peaking
 
 This pattern indicates a clear time-of-day effect on appointment attendance.
 
-Why This Matters (Operational Impact)
-
-Likely Operational Drivers
-
-Patients struggle with morning readiness (transportation, childcare, work conflicts); Limited reminder effectiveness overnight; Higher likelihood of last-minute cancellations or no-shows due to rushed mornings
+Likely Operational Drivers: Patients struggle with morning readiness (transportation, childcare, work conflicts); Limited reminder effectiveness overnight; Higher likelihood of last-minute cancellations or no-shows due to rushed mornings.
 
 
 ---
@@ -143,7 +141,7 @@ Patients struggle with morning readiness (transportation, childcare, work confli
 
 Monthly appointment volume fluctuates significantly around an average of approximately 70 visits per month, with pronounced peaks and troughs throughout the year.
 
-Peak volume occurs in March (103 visits) and November (~97 visits)
+Highest peak volume occurs in March (103 visits) 
 
 Lowest volume is observed in October (43 visits)
 
@@ -165,7 +163,9 @@ Because appointment volume directly drives revenue, these fluctuations introduce
 
 Appointment volume varies significantly both across departments and among individual providers, indicating uneven workload distribution and potential capacity imbalances within Horizon Care.
 
-Oncology shows the highest overall appointment volumes, with Alice Clark (37 visits) significantly exceeding peers
+Radiology shows the highest overall appointment volumes
+
+In Oncology, Alice Clark records 37 appointments, significantly exceeding her peers and representing the highest individual provider volume across all departments.
 
 Radiology and Neurology display more evenly distributed workloads, though individual provider variation remains
 
@@ -187,7 +187,7 @@ Sustained provider imbalance increases patient wait times for high-demand provid
 
 Approximately 15% of scheduled appointments result in no-shows, representing a significant and recurring source of lost capacity and revenue for Horizon Care.
 
-Even a modest reduction of 3–5 percentage points would translate into a meaningful increase in completed visits without additional staffing costs.
+Even a modest reduction of 3–5 percent would translate into a meaningful increase in completed visits without additional staffing costs.
 
 ---
 
@@ -229,8 +229,6 @@ The longest average visits are observed in:
 Cardiology – up to 37.5 minutes
 
 Radiology – up to 35.0 minutes
-
-Oncology & Neurology – clustering around 30–32 minutes
 
 Shorter visits (≈22–25 minutes) are concentrated among select providers within Oncology and Neurology.
 
