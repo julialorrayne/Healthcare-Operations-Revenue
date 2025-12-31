@@ -41,7 +41,7 @@ This project analyzes Horizon Care’s operational and billing data (2023–2025
 ## Key Findings
 
 + No-Show Concentration by Day of Week:
-Midweek appointments (Tuesday–Thursday) experience 20–40% higher no-show volumes than the weekly average (16.7 no-shows), with Tuesday peaking at 23 no-shows. Mondays and Fridays consistently show the lowest missed appointments, indicating predictable weekly risk patterns rather than random behavior.
+Midweek appointments (Tuesday–Thursday) experience 20–40% higher no-show volumes than the weekly average (16.7 no-shows), with Tuesday peaking at 23 no-shows. Mondays and Fridays consistently show the lowest missed appointments.
 
 + Early Morning Appointments Are Highest Risk:
 No-shows peak during 8–10 AM appointments, with the highest volume at 8 AM, then decline steadily throughout the day. After 11 AM, missed appointments drop sharply and remain low, highlighting time-of-day as a major attendance driver.
