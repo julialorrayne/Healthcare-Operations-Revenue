@@ -17,7 +17,8 @@ Relational Database Design & Data Modeling  · SQL DDL & Constraint Enforcement 
 
 
 > DDL can be found [here](https://github.com/julialorrayne/Healthcare-Revenue-Operations-Dashboard/blob/main/DDL.sql)
-> Synthetic healthcare data generation is implemented in this [Python notebook]([Hospital_Database_Data_Generation.ipynb](https://github.com/julialorrayne/Healthcare-Revenue-Operations-Dashboard/blob/main/Hospital_Database_Data_Generation.ipynb)).
+
+> Synthetic healthcare data generation is implemented in this [Python notebook](https://github.com/julialorrayne/Healthcare-Revenue-Operations-Dashboard/blob/main/Hospital_Database_Data_Generation.ipynb).
 
 
 
